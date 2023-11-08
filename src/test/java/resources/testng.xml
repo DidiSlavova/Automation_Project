@@ -1,0 +1,27 @@
+<suite name="All Tests" verbose="1">
+    <test name="Delete Post">
+        <classes>
+            <class name="tests.DeletePostTest"></class>
+        </classes>
+    </test>
+    <test name="Log Out">
+        <classes>
+            <class name="tests.LogOutTest"></class>
+        </classes>
+    </test>
+    <test name="Modify Profile">
+        <classes>
+            <class name="tests.ModifyProfileTest"></class>
+        </classes>
+    </test>
+    <test name="New Post">
+        <classes>
+            <class name="tests.NewPostTest"></class>
+        </classes>
+    </test>
+    <test name="Upload Profile Picture">
+        <classes>
+            <class name="tests.UploadProfilePicTest"></class>
+        </classes>
+    </test>
+</suite>
